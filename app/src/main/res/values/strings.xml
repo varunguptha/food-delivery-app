@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">food_delivery</string>
+    <string name="cost_250">cost 250</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="panner_pulao">panner Pulao</string>
+    <string name="panner">panner</string>
+    <string name="cost_150">cost 150</string>
+    <string name="string_panner_pulao1">string/panner Pulao1</string>
+    <string name="dsasda" />
+    <string name="panner_pulao3">panner_pulao3</string>
+    <string name="panner_pulao5">panner_pulao5</string>
+    <string name="panner_pulao6">panner_pulao6</string>
+    <string name="shop_now">Shop Now</string>
+    <string name="proceed_to_cart">Proceed to Cart</string>
+    <string name="ice_cream">Ice-Cream</string>
+    <string name="welcome">Welcome,</string>
+    <string name="get_your_food_at_your_door_step">Get Your food at Your Door-Step.</string>
+    <string name="order_now">Order Now</string>
+    <string name="hyderabad_biryani">Hyderabad Biryani</string>
+
+    <string name="chicken_roll">Chicken Roll</string>
+    <string name="cost_2502">Cost 250</string>
+    <string name="panner_tikka">Panner Tikka</string>
+    <string name="csot">Cost 150</string>
+    <string name="cost_80">Cost 80</string>
+    <string name="cost_50">Cost 50</string>
+    <string name="milkshake">Milkshake</string>
+    <string name="cost_1505">Cost 150</string>
+    <string name="todo">TODO</string>
+    <string name="proceed_to_payment">Proceed to Payment</string>
+    <string name="buy_now">Buy Now</string>
+</resources>

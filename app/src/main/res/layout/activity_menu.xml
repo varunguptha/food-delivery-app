@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context=".menu">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:padding="0dp"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#ffffff"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:contentDescription="@string/todo"
+                    android:scaleY="1.2"
+                    android:src="@drawable/biryani" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/hyderabad_biryani"
+                        android:textSize="15sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cost_2502"
+                        android:textSize="18sp"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp">
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:onClick="delt1"
+                            android:src="@drawable/ic_baseline_delete_24"
+                            android:contentDescription="@string/todo" />
+
+                        <TextView
+                            android:id="@+id/txt1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="25dp"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginTop="10dp"
+                            android:textSize="20sp" />
+
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="60dp"
+                            android:background="#33bbff"
+                            android:onClick="onClickFood1"
+                            android:padding="5dp"
+                            android:text="@string/add_to_cart"
+                            android:textColor="#ffffff"
+                            android:textSize="15sp"
+                            android:layout_marginLeft="90dp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#ffffff"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:contentDescription="@string/todo"
+                    android:scaleY="1.2"
+                    android:src="@drawable/panner" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/panner_tikka"
+                        android:textSize="15sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/csot"
+                        android:textSize="18sp" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp">
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:onClick="delt2"
+                            android:src="@drawable/ic_baseline_delete_24"
+                            android:contentDescription="@string/todo" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginTop="10dp"
+                            android:textSize="20sp"
+                            android:id="@+id/txt8"
+                            android:layout_marginStart="25dp" />
+
+
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="60dp"
+                            android:layout_marginLeft="60dp"
+                            android:background="#33bbff"
+                            android:onClick="onClickFood2"
+                            android:padding="5dp"
+                            android:text="@string/add_to_cart"
+                            android:textColor="#ffffff"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#ffffff"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:scaleY="1.2"
+                    android:src="@drawable/ice"
+                    android:contentDescription="@string/todo" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ice_cream"
+                        android:textSize="15sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cost_80"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp">
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:onClick="delt3"
+                            android:src="@drawable/ic_baseline_delete_24"
+                            android:contentDescription="@string/todo" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginTop="10dp"
+                            android:textSize="20sp"
+                            android:id="@+id/txt3"
+                            android:layout_marginStart="25dp" />
+
+
+
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="60dp"
+                            android:layout_marginLeft="60dp"
+                            android:background="#33bbff"
+                            android:onClick="onClickFood3"
+                            android:padding="5dp"
+                            android:text="@string/add_to_cart"
+                            android:textColor="#ffffff"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#ffffff"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:scaleY="1.2"
+                    android:src="@drawable/milk"
+                    android:contentDescription="@string/todo" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/milkshake"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cost_50"
+                        android:textSize="18sp" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp">
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:contentDescription="@string/todo"
+                            android:onClick="delt4"
+                            android:src="@drawable/ic_baseline_delete_24" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginTop="10dp"
+                            android:textSize="20sp"
+                            android:id="@+id/txt4"
+                            android:layout_marginStart="25dp" />
+
+
+
+
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="60dp"
+                            android:layout_marginLeft="60dp"
+                            android:background="#33bbff"
+                            android:onClick="onClickFood4"
+                            android:padding="5dp"
+                            android:text="@string/add_to_cart"
+                            android:textColor="#ffffff" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#ffffff"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:contentDescription="@string/todo"
+                    android:scaleY="1.2"
+                    android:src="@drawable/roll" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/chicken_roll"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cost_1505"
+                        android:textSize="18sp"
+                        tools:ignore="RtlHardcoded" />
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp">
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:contentDescription="@string/todo"
+                            android:onClick="delt5"
+                            android:src="@drawable/ic_baseline_delete_24" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginTop="10dp"
+                            android:textSize="20sp"
+                            android:id="@+id/txt5"
+                            android:layout_marginStart="25dp" />
+
+
+
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="60dp"
+                            android:background="#33bbff"
+                            android:onClick="onClickFood5"
+                            android:padding="5dp"
+                            android:text="@string/add_to_cart"
+                            android:textColor="#ffffff"
+                            android:textSize="15sp"
+                            android:layout_marginLeft="80dp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:onClick="cartFinal"
+                android:background="#33bbff"
+                android:text="@string/proceed_to_cart" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

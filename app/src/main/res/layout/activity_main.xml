@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btn1"
+    android:background="@drawable/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:textSize="35sp"
+        android:textColor="#CB202D"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginStart="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/get_your_food_at_your_door_step"
+        android:textColor="#CB202D"
+        android:layout_marginLeft="50dp"
+        android:textSize="23sp"
+        android:layout_marginTop="90dp"
+        android:layout_marginStart="50dp" />
+
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/order_now"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:textColor="#fce9ea"
+        android:background="@drawable/custom"
+        android:textSize="25sp"
+        android:onClick="btClick" />
+</RelativeLayout>
